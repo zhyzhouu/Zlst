@@ -12,9 +12,10 @@ sections:
       text: |
         The ZLST Lab is affiliated with Computer Science, Zhejiang University. The lab is led by Professor Chun Chen, focusing on cutting-edge research in Big Data and Artificial Intelligence, particularly in Recommender Systems, Graph Mining, Diffusion Models, Knowledge Distillation, and Large Language Models, etc. Our team has been honored with five provincial/ministerial-level science and technology awards, and five best paper awards at top international academic conferences. We look forward to contributing to the field of artificial intelligence in the era of large models!
       image:
-        filename: logo.png
+        filename: homepage_background.png
       design:
         flip: true
+        column_size: 7
   - block: hero_neo
     id: my-hero-style
     content:
@@ -24,11 +25,9 @@ sections:
     content:
       subtitle: Recommendation systems
       text: |
-        Recommender systems (RS) are technologies that utilize user behavior and content characteristics to predict user preferences and provide personalized recommendations, serving as core infrastructure for e-commerce and social media platforms.
-
-        We are devoted to cutting-edge research topics including trustworthy recommendation, sequential recommendation, theoretical foundations of Recommender Systems, and LLM-enhanced recommendation paradigms. 
+        Recommender systems (RS) are technologies that utilize user behavior and content characteristics to predict user preferences and provide personalized recommendations, serving as core infrastructure for e-commerce and social media platforms. We are devoted to cutting-edge research topics including trustworthy recommendation, sequential recommendation, theoretical foundations of Recommender Systems, and LLM-enhanced recommendation paradigms. 
       image:
-        filename: logo.png
+        filename: recommendation_systems.png
       design:
         flip: true
   - block: hero_neo
@@ -36,11 +35,9 @@ sections:
     content:
       subtitle: Graph mining
       text: |
-        Graph data mining aims to extract the underlying relationships and patterns between entities from various graph-structured data, which has many real-world applications such as social network analysis, bioinformatics and financial fraud detection. 
-        
-        We are committed to cutting-edge research topics including graph transformer, graph foundation models, graph structure learning, graph query and LLM-empowered graph models.
+        Graph data mining aims to extract the underlying relationships and patterns between entities from various graph-structured data, which has many real-world applications such as social network analysis, bioinformatics and financial fraud detection. We are committed to cutting-edge research topics including graph transformer, graph foundation models, graph structure learning, graph query and LLM-empowered graph models.
       image:
-        filename: logo.png
+        filename: graph_mining.jpg
       design:
         flip: true
   - block: hero_neo
@@ -48,9 +45,7 @@ sections:
     content:
       subtitle: Diffusion Models
       text: |
-        Diffusion Models are a class of generative models that have gained significant attention in recent years, particularly in the fields of computer vision and natural language processing. By establishing a mapping from noise distribution to data distribution, Diffusion Models can generate high-quality data such as images, videos, audios and text. 
-        
-        We are devoted to provide a deeper understanding of the generaion dynamics of Diffusion Models and the acceleration of their sampling processes. 
+        Diffusion Models are a class of generative models that have gained significant attention in recent years, particularly in the fields of computer vision and natural language processing. By establishing a mapping from noise distribution to data distribution, Diffusion Models can generate high-quality data such as images, videos, audios and text. We are devoted to provide a deeper understanding of the generaion dynamics of Diffusion Models and the acceleration of their sampling processes. 
       image:
         filename: logo-diffusion-models.png
       design:
@@ -62,7 +57,7 @@ sections:
       text: |
         Knowledge distillation aims to achieve efficient transfer of knowledge from complex models to lightweight models. The goal is to balance the inference cost and performance of compact models, facilitating the deployment of intelligent models in resource-constrained scenarios such as edge computing and mobile devices.
       image:
-        filename: logo.png
+        filename: logo-kd.jpg
       design:
         flip: true
 
